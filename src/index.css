@@ -59,6 +59,7 @@ nav.dark {
 nav.dark .toggler--slider {
   color: white;
   background-color: #f5f5f5;
+  padding: 2px;
 }
 
 .toggler--slider--circle {
