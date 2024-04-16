@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import "./index.css";
 import Navbar from "./components/Navbar";
 import Main from "./components/Main";
 
@@ -11,7 +10,7 @@ export default function App() {
   }
   return (
     <div className="container">
-      <Navbar darkMode={isDarkMode} togglDarkMode={toggleMode} />
+      <Navbar darkMode={isDarkMode} toggleDarkMode={toggleMode} />
       <Main darkMode={isDarkMode} />
     </div>
   );
